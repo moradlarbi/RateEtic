@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Granite', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url('./assets/bg.png') fixed no-repeat;
+    background-size: cover;
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .rate {
+          width: 250px;
+          height: 150px;
+        }
+        .etic {
+          width: 150px;
+          height: 150px;
+        }
+        ul {
+          margin-top: 50px;
+            display: flex;
+            list-style-type: none;
+            li {
+                font-size: 1.9rem;
+                margin: 30px 100px;
+
+                a {
+                  text-decoration: none;
+                  color: black;
+                }
+            }
+        }
+
+    }
+    .header {
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        #search{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            label {
+              font-size: 1.5rem;
+            }
+            .recherche{
+                display: flex;
+                align-items: center;
+                padding-right: 10px;
+                border: 1px solid black;
+                margin-top: 10px;
+
+                #searcharea{
+                    outline: none;
+                    padding: 2px 10px 2px 10px;
+                    height: 30px;
+                    font-family: 'Baloo Tammudu 2', sans-serif;
+                    text-transform: uppercase;
+                    border: none;
+                    margin-right: 10px;
+                    background-color: inherit;
+                    
+                }
+            }
+            
+        }
+        
+        
+        
+    }
+    .container {
+        width: 100%;
+        display: flex;
+
+        .content {
+            width: 100%;
+            margin-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .card {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              
+              h2 {
+                margin: 0;
+              }
+              h1 {
+                margin: 0;
+              }
+              .ratings-container {
+                width: 100%;
+                padding-left: 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .rating {
+                  width: auto;
+                  display: flex;
+                  align-items: center;
+
+                  .text {
+                    width: 100px;
+                    margin-right: 50px;
+                  }
+                  .bar{
+                    width: 200px;
+                    height: 18px;
+                    background-color: rgb(233, 229, 229);
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    border-radius: 5px;
+                    padding: 0px 2px;
+                    
+
+                    .progres{
+                      height: 9px;
+                      border-radius: 5px;
+                      transition-duration: 3s;
+                    }
+                    .exc {
+                      width: 60%;
+                      background-color: #00971D;
+                    }
+                    .good {
+                      width: 20%;
+                      background-color: #00da2c;
+                    }
+                    .average {
+                      width: 5%;
+                      background-color: #F7D900;
+                    }
+                    .b-average {
+                      width: 10%;
+                      background-color: #F77F00;
+                    }
+                    .poor {
+                      width: 5%;
+                      background-color: #f70000;
+                    }
+                  }
+
+                }
+              }
+            }
+
+        }
+    }
+
+    .footer {
+        margin-top: 0;
+        width: 100%;
+        background-color: black;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+
+        .nav {
+          padding-top: 50px;
+          display: flex;
+          justify-content: space-evenly;
+
+          .logo-container {
+            color: white;
+
+            p {
+              margin-top: 20px;
+            }
+          }
+          
+          dl {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            dt {
+              color: gray;
+            }
+            dd {
+              color: white;
+              margin-left: 0px;
+              margin-top: 5px;
+              a {
+                color: white;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+        
+      }
+}

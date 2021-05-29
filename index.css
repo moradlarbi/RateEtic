@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Granite', sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("./assets/bg.png") fixed no-repeat;
+  background-size: cover;
+}
+
+body header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .rate {
+  width: 250px;
+  height: 150px;
+}
+
+body header .etic {
+  width: 150px;
+  height: 150px;
+}
+
+body header ul {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+body header ul li {
+  font-size: 1.9rem;
+  margin: 30px 100px;
+}
+
+body header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+body .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+body .header #search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .header #search label {
+  font-size: 1.5rem;
+}
+
+body .header #search .recherche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+body .header #search .recherche #searcharea {
+  outline: none;
+  padding: 2px 10px 2px 10px;
+  height: 30px;
+  font-family: 'Baloo Tammudu 2', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 10px;
+  background-color: inherit;
+}
+
+body .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .content {
+  width: 100%;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .content .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .content .card h2 {
+  margin: 0;
+}
+
+body .container .content .card h1 {
+  margin: 0;
+}
+
+body .container .content .card .ratings-container {
+  width: 100%;
+  padding-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .content .card .ratings-container .rating {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .content .card .ratings-container .rating .text {
+  width: 100px;
+  margin-right: 50px;
+}
+
+body .container .content .card .ratings-container .rating .bar {
+  width: 200px;
+  height: 18px;
+  background-color: #e9e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  padding: 0px 2px;
+}
+
+body .container .content .card .ratings-container .rating .bar .progres {
+  height: 9px;
+  border-radius: 5px;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+body .container .content .card .ratings-container .rating .bar .exc {
+  width: 60%;
+  background-color: #00971D;
+}
+
+body .container .content .card .ratings-container .rating .bar .good {
+  width: 20%;
+  background-color: #00da2c;
+}
+
+body .container .content .card .ratings-container .rating .bar .average {
+  width: 5%;
+  background-color: #F7D900;
+}
+
+body .container .content .card .ratings-container .rating .bar .b-average {
+  width: 10%;
+  background-color: #F77F00;
+}
+
+body .container .content .card .ratings-container .rating .bar .poor {
+  width: 5%;
+  background-color: #f70000;
+}
+
+body .footer {
+  margin-top: 0;
+  width: 100%;
+  background-color: black;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .footer .nav {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .footer .nav .logo-container {
+  color: white;
+}
+
+body .footer .nav .logo-container p {
+  margin-top: 20px;
+}
+
+body .footer .nav dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body .footer .nav dl dt {
+  color: gray;
+}
+
+body .footer .nav dl dd {
+  color: white;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+body .footer .nav dl dd a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */
