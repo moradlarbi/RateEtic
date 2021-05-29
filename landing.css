@@ -83,7 +83,7 @@ body .container .right button {
   margin-left: 20px;
   font-family: sans-serif;
   border-radius: 60px;
-  background-color: rgba(202, 68, 80, 0.87);
+  background-color: #191829;
   font-size: 1rem;
   font-weight: bold;
   padding: 15px 45px;
@@ -97,7 +97,7 @@ body .container .right button {
 }
 
 body .container .right button a {
-  color: #000000;
+  color: #3ACAC9;
   text-decoration: none;
 }
 
